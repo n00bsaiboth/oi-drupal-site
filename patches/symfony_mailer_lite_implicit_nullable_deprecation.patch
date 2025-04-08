@@ -1,0 +1,13 @@
+diff --git a/src/Plugin/Mail/SymfonyMailer.php b/src/Plugin/Mail/SymfonyMailer.php
+index 09aed81..80899db 100644
+--- a/src/Plugin/Mail/SymfonyMailer.php
++++ b/src/Plugin/Mail/SymfonyMailer.php
+@@ -147,7 +147,7 @@ class SymfonyMailer implements MailInterface, ContainerFactoryPluginInterface {
+    * @param $mime_type_guesser
+    * @param AssetOptimizerInterface|null $cssOptimizer
+    */
+-  public function __construct(EntityTypeManagerInterface $entity_type_manager, ConfigFactoryInterface $config_factory, LoggerInterface $logger, RendererInterface $renderer, ModuleHandlerInterface $module_handler, MailManagerInterface $mail_manager, ThemeManagerInterface $theme_manager, AssetResolverInterface $asset_resolver, EmbeddedImageValidatorInterface $embedded_image_validator, MailerInterface $mailer, AssetOptimizerInterface $cssOptimizer = NULL) {
++  public function __construct(EntityTypeManagerInterface $entity_type_manager, ConfigFactoryInterface $config_factory, LoggerInterface $logger, RendererInterface $renderer, ModuleHandlerInterface $module_handler, MailManagerInterface $mail_manager, ThemeManagerInterface $theme_manager, AssetResolverInterface $asset_resolver, EmbeddedImageValidatorInterface $embedded_image_validator, MailerInterface $mailer, ?AssetOptimizerInterface $cssOptimizer = NULL) {
+     $this->entityTypeManager = $entity_type_manager;
+     $this->configFactory = $config_factory;
+     $this->logger = $logger;
