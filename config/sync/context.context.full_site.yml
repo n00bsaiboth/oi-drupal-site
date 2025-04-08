@@ -1,7 +1,9 @@
 uuid: b7894f8d-f43a-426a-b002-35716ccc4aa5
 langcode: fi
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - lang_dropdown
 label: 'Full site'
 name: full_site
 group: Sitewide
@@ -13,7 +15,47 @@ reactions:
   blocks:
     id: blocks
     uuid: 9c3bc3b2-a1a8-422f-a5f1-d29db6359c92
-    blocks: {  }
+    blocks:
+      eadc687d-3841-45f2-b4ed-7191df5d446a:
+        uuid: eadc687d-3841-45f2-b4ed-7191df5d446a
+        id: 'language_dropdown_block:language_interface'
+        label: 'Language dropdown switcher'
+        provider: lang_dropdown
+        label_display: '0'
+        region: secondary_menu
+        weight: '0'
+        custom_id: language_dropdown_block_language_interface
+        theme: drupal_cms_olivero
+        css_class: ''
+        unique: 0
+        context_id: full_site
+        context_mapping: {  }
+        showall: 1
+        hide_only_one: 1
+        tohome: 0
+        width: '165'
+        display: '1'
+        widget: '0'
+        msdropdown:
+          visible_rows: '5'
+          rounded: 1
+          animation: slideDown
+          event: click
+          skin: ldsSkin
+          custom_skin: ''
+        chosen:
+          disable_search: 1
+          no_results_text: 'No language match'
+        ddslick:
+          ddslick_height: '0'
+          showSelectedHTML: 1
+          imagePosition: left
+          skin: ddsDefault
+          custom_skin: ''
+        languageicons:
+          flag_position: 1
+        hidden_languages: {  }
+        third_party_settings: {  }
     include_default_blocks: 1
     saved: false
 weight: 0
