@@ -2,8 +2,8 @@ _core:
   default_config_hash: HlN7eAN2N4JIHsYv56V4E7sqC9bS609KwvGFjyD_mgk
 langcode: en
 uuid: 97afb880-608b-4a53-a980-1412bb546f01
-name: 'Drush Site-Install'
-mail: admin@example.com
+name: Openinnovations.io
+mail: info@openinnovations.io
 slogan: ''
 page:
   403: /user/login
