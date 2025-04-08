@@ -56,6 +56,8 @@
         "optimize-autoloader": true
     },
     "extra": {
+        "composer-exit-on-patch-failure": true,
+        "enable-patching": true,
         "patches": {
             "drupal/pathauto": {
                 "https://www.drupal.org/project/pathauto/issues/3489108": "https://www.drupal.org/files/issues/2025-03-06/pathauto-3489108.diff"
