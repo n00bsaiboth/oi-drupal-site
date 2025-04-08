@@ -1,0 +1,19 @@
+uuid: b7894f8d-f43a-426a-b002-35716ccc4aa5
+langcode: fi
+status: true
+dependencies: {  }
+label: 'Full site'
+name: full_site
+group: Sitewide
+description: ''
+requireAllConditions: false
+disabled: false
+conditions: {  }
+reactions:
+  blocks:
+    id: blocks
+    uuid: 9c3bc3b2-a1a8-422f-a5f1-d29db6359c92
+    blocks: {  }
+    include_default_blocks: 1
+    saved: false
+weight: 0
