@@ -19,6 +19,7 @@
         "php": ">=8.2.0",
         "composer/installers": "^2.3",
         "cweagans/composer-patches": "^1.7",
+        "drupal/context": "^5.0@RC",
         "drupal/core-composer-scaffold": "^11.1.4",
         "drupal/core-project-message": "^11.1.4",
         "drupal/core-recommended": "^11.1.4",
@@ -40,18 +41,25 @@
         "drupal/webform": "@beta",
         "drush/drush": "^13"
     },
+    "require-dev": {
+        "drupal/core-dev": "^11.1",
+        "phpunit/phpunit": "^10.5"
+    },
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "allow-plugins": {
             "composer/installers": true,
             "cweagans/composer-patches": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "phpstan/extension-installer": true,
+            "tbachert/spi": true
         },
         "sort-packages": true,
         "optimize-autoloader": true
