@@ -1,0 +1,20 @@
+uuid: 7d892d88-5964-477d-931b-46c0979a910d
+langcode: fi
+status: true
+dependencies:
+  config:
+    - media.type.image
+  module:
+    - options
+id: media.image.unpublish_state
+field_name: unpublish_state
+entity_type: media
+bundle: image
+label: 'Unpublish state'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,20 @@
+uuid: 3cc23cfe-cfbf-4127-988b-95afe1b41514
+langcode: fi
+status: true
+dependencies:
+  config:
+    - media.type.svg_image
+  module:
+    - options
+id: media.svg_image.publish_state
+field_name: publish_state
+entity_type: media
+bundle: svg_image
+label: 'Publish state'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

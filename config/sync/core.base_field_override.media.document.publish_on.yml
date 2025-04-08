@@ -1,0 +1,18 @@
+uuid: 76791a69-60da-4a21-a8e0-b4417e6f0c64
+langcode: fi
+status: true
+dependencies:
+  config:
+    - media.type.document
+id: media.document.publish_on
+field_name: publish_on
+entity_type: media
+bundle: document
+label: 'Publish on'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp
