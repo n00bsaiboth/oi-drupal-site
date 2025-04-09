@@ -1,0 +1,39 @@
+uuid: 99c2dc89-4e74-4383-9ae0-1c54cdfb2f52
+langcode: fi
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.card
+    - field.field.node.article.field_body
+    - field.field.node.article.field_comment
+    - field.field.node.article.field_featured_image
+    - field.field.node.article.field_image
+    - field.field.node.article.field_tags
+    - node.type.article
+  module:
+    - user
+id: node.article.card
+targetEntityType: node
+bundle: article
+mode: card
+content:
+  field_featured_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: 16_9_medium
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_body: true
+  field_comment: true
+  field_image: true
+  field_tags: true
+  langcode: true
