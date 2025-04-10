@@ -1,0 +1,22 @@
+uuid: 843fc705-384f-4fd9-a100-43ce9b98ad50
+langcode: fi
+status: true
+dependencies:
+  config:
+    - media.type.svg_image
+id: media.svg_image.status
+field_name: status
+entity_type: media
+bundle: svg_image
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

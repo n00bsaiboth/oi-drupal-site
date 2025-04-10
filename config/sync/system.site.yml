@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: HlN7eAN2N4JIHsYv56V4E7sqC9bS609KwvGFjyD_mgk
+langcode: fi
+uuid: 97afb880-608b-4a53-a980-1412bb546f01
+name: Openinnovations.io
+mail: info@openinnovations.io
+slogan: ''
+page:
+  403: /user/login
+  404: ''
+  front: /node/2
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: fi
+mail_notification: null

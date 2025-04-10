@@ -1,0 +1,20 @@
+uuid: 5041dd50-9903-43e8-a612-8cd18a862816
+langcode: fi
+status: true
+dependencies:
+  config:
+    - media.type.document
+  module:
+    - options
+id: media.document.publish_state
+field_name: publish_state
+entity_type: media
+bundle: document
+label: 'Publish state'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

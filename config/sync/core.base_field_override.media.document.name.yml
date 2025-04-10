@@ -1,0 +1,20 @@
+uuid: bad3a650-a836-42f5-91a8-dc5ce15fbc1d
+langcode: fi
+status: true
+dependencies:
+  config:
+    - media.type.document
+id: media.document.name
+field_name: name
+entity_type: media
+bundle: document
+label: Name
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string
