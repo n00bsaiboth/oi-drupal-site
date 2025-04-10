@@ -1,0 +1,5 @@
+label: Viimeisimmät
+display:
+  default:
+    display_options:
+      title: Viimeisimmät
