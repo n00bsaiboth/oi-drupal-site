@@ -1,0 +1,5 @@
+label: 'Articles '
+display:
+  default:
+    display_options:
+      title: Articles

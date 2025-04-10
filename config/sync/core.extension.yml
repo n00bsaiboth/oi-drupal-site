@@ -15,6 +15,7 @@ module:
   coffee: 0
   comment: 0
   config: 0
+  config_translation: 0
   content_moderation: 0
   context: 0
   context_ui: 0
@@ -57,6 +58,7 @@ module:
   layout_discovery: 0
   link: 0
   linkit: 0
+  locale: 0
   login_emailusername: 0
   mailsystem: 0
   media: 0
