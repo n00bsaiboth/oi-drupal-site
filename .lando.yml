@@ -24,7 +24,17 @@ services:
     persist: true
   phpmyadmin:
     type: phpmyadmin:5.2
-    
+  solr:
+    type: solr:9.0
+    core: openinnovations
+    portforward: true
+    config:
+      conf: solr/conf
+
+proxy:
+  solr:
+    - search.oi-drupal-site.lndo.site:8983
+
 tooling:
   phplint:
     service: appserver
