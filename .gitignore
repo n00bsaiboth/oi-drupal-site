@@ -86,5 +86,8 @@
 # Ignore Drush configuration
 /.drush
 
-#Ignore the simple oauth keys
+# Ignore the simple oauth keys
 /keys/*
+
+# Ignore Solr configs (local)
+/solr/conf/*
