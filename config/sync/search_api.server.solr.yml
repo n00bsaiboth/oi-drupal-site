@@ -39,10 +39,10 @@ backend_config:
   server_prefix: ''
   domain: generic
   environment: default
-  connector: standard
+  connector: basic_auth
   connector_config:
     scheme: http
-    host: solr
+    host: localhost
     port: 8983
     path: /
     core: openinnovations
@@ -57,6 +57,8 @@ backend_config:
     jmx: false
     jts: false
     solr_install_dir: ''
+    username: solr
+    password: SolrRocks
   optimize: false
   fallback_multiple: false
   disabled_field_types: {  }
