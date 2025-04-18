@@ -41,6 +41,7 @@
         "drupal/project_browser": "@beta",
         "drupal/recipe_installer_kit": "^1-alpha3@alpha",
         "drupal/redis": "^1.9",
+        "drupal/search_api_solr": "^4.3",
         "drupal/webform": "@beta",
         "drush/drush": "^13",
         "predis/predis": "^2.3"
