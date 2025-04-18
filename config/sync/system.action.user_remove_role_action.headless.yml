@@ -1,0 +1,14 @@
+uuid: d9add152-cd28-49e3-acb3-c9199cb4a904
+langcode: fi
+status: true
+dependencies:
+  config:
+    - user.role.headless
+  module:
+    - user
+id: user_remove_role_action.headless
+label: 'Remove the Headless role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: headless

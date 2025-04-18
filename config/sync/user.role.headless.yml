@@ -1,0 +1,16 @@
+uuid: 79ec3d73-01af-4c16-9e45-e907e1497dcf
+langcode: fi
+status: true
+dependencies:
+  module:
+    - node
+    - subrequests
+id: headless
+label: Headless
+weight: 4
+is_admin: false
+permissions:
+  - 'access user profiles'
+  - 'bypass node access'
+  - 'issue subrequests'
+  - 'view all revisions'

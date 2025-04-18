@@ -85,3 +85,6 @@
 
 # Ignore Drush configuration
 /.drush
+
+#Ignore the simple oauth keys
+/keys/*
