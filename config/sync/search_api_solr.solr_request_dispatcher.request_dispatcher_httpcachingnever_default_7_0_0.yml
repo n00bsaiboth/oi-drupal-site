@@ -1,0 +1,14 @@
+uuid: 35a3c822-3d5b-407f-8f0b-1d4b19002aa4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: UbxzckuoN-7-PLfjTgOkYEvrOC-6_1eVgrHSQvdvD74
+id: request_dispatcher_httpcachingnever_default_7_0_0
+label: 'HTTP Cache Never'
+minimum_solr_version: 7.0.0
+environments: {  }
+recommended: true
+request_dispatcher:
+  name: httpCaching
+  never304: true
