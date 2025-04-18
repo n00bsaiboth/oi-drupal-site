@@ -876,4 +876,8 @@ if(file_exists($app_root . '/' . $site_path . '/settings.production.php')) {
   include $app_root . '/' . $site_path . '/settings.production.php';
 }
 
+if(file_exists($app_root . '/' . $site_path . '/settings.headless.php')) {
+  include $app_root . '/' . $site_path . '/settings.headless.php';
+}
+
 $settings['config_sync_directory'] = '../config/sync';

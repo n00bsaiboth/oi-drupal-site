@@ -1,0 +1,11 @@
+uuid: d151f7b1-8d55-4433-b5ed-0ea1379ff22a
+langcode: fi
+status: true
+dependencies: {  }
+id: headless
+label: Headless
+base_url: 'http://localhost:5000'
+preview_url: 'http://localhost:5000/api/draft'
+preview_secret: s3cr3t
+revalidate_url: ''
+revalidate_secret: ''

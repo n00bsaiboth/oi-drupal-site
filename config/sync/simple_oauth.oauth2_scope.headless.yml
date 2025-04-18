@@ -1,0 +1,22 @@
+uuid: 198fb1fd-6947-4c5a-9b44-c4d871136489
+langcode: fi
+status: true
+dependencies: {  }
+id: headless
+name: headless
+description: 'Scope for Headless roles and users'
+grant_types:
+  refresh_token:
+    status: false
+    description: ''
+  client_credentials:
+    status: true
+    description: ''
+  authorization_code:
+    status: false
+    description: ''
+umbrella: false
+parent: _none
+granularity_id: role
+granularity_configuration:
+  role: headless

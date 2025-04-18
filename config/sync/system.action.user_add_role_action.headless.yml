@@ -1,0 +1,14 @@
+uuid: bf8950db-bcea-43b6-a637-7aa041857d8a
+langcode: fi
+status: true
+dependencies:
+  config:
+    - user.role.headless
+  module:
+    - user
+id: user_add_role_action.headless
+label: 'Add the Headless role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: headless
